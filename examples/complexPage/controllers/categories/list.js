@@ -6,7 +6,8 @@ define([
 	var Controller = {
 		url: 'categories(/reset)',
 		parentName: 'categories/layout',
-		View: View
+		View: View,
+		container: '#list'
 	};
 
 	return ParentController.extend(Controller);

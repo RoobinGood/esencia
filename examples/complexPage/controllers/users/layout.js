@@ -6,7 +6,8 @@ define([
 	var Controller = {
 		name: 'users/layout',
 		parentName: 'layout',
-		View: View
+		View: View,
+		container: '#content'
 	};
 
 	return ParentController.extend(Controller);

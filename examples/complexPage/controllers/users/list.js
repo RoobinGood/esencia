@@ -6,7 +6,8 @@ define([
 	var Controller = {
 		url: 'users(/reset)',
 		parentName: 'users/layout',
-		View: View
+		View: View,
+		container: '#list'
 	};
 
 	return ParentController.extend(Controller);

@@ -6,7 +6,8 @@ define([
 	var Controller = {
 		url: '',
 		parentName: 'layout',
-		View: View
+		View: View,
+		container: '#content'
 	};
 
 	Controller.prepare = function() {

@@ -629,7 +629,7 @@ Usage:
 
 #### View.getClosestView()
 
-`View.getClosestView` returns view that attached to the closest element with class `.view-attached`.
+`View.getClosestView` returns view that attached to the closest element with class `.esencia-view`.
 
 
 #### Manage nested views example

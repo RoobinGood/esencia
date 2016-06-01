@@ -4,7 +4,6 @@ define([
 	'underscore', 'esencia/view', 'views/todos/item', 'views/todos/footer'
 ], function(_, ParentView, TodosItemView, TodosFooterView) {
 	var View = {
-		el: '#content',
 		template: _.template(document.getElementById('tmpl-todos').innerHTML),
 		events: {
 			'keydown #new-todo-title': 'onNewTodoTitleKeydown',

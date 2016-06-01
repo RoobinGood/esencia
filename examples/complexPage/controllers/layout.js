@@ -5,7 +5,8 @@ define([
 ], function(ParentController, View) {
 	var Controller = {
 		name: 'layout',
-		View: View
+		View: View,
+		container: '#app'
 	};
 
 	return ParentController.extend(Controller);
