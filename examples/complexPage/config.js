@@ -6,7 +6,8 @@ require.config({
 	baseUrl: '.',
 	paths: {
 		jquery: cdnjsPath + 'jquery/1.11.1/jquery.min',
-		backbone: cdnjsPath + 'backbone.js/1.3.3/backbone-min',
+		// backbone: cdnjsPath + 'backbone.js/1.3.3/backbone-min',
+		backbone: '../../node_modules/backbone/backbone',
 		underscore: cdnjsPath + 'underscore.js/1.8.3/underscore-min',
 		esencia: '../../lib'
 	},
